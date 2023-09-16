@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #242A32;
+
+}
+.find{
+    background-color: #3A3F47;
+    width: 95%;
+    margin: auto;
+   margin-top: 20px;
+  
+
+}
+
+.find>input{
+    background-color: #3A3F47;
+    color: #67686D;
+    border: 0;
+    width: 90%;
+    padding: 10px;
+}
+input:focus{
+    border: 0;
+    outline: 0;
+}
+h1{
+    text-align: center;
+    font-size: 6vw;
+    color: #242A32;
+    text-shadow: 0 0 2px #0296E5;
+}
+.img{
+    background-color: grey;
+    width: 209px;
+    height: 303px;
+    border-radius: 10px;
+}
+#films{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(209px, 2fr));
+    gap: 1em;
+}
+.card{
+    position: relative; 
+   
+    height: 373px;
+}
+.name-num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.name-num>h4{
+    font-size: 18px;
+    margin-left: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 22px;
+}
+.mov-det{
+    display: flex;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 11px;
+}
+.mov-det>p{
+    background-color: green;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 12px;
+
+}
+.mov-det>p:nth-child(2){
+    background-color: red;
+}
+.name-num>p{
+    position: absolute;
+    top: 235px;
+    left: -11px;
+    font-size: 100px;
+    font-weight: 700;
+    color: #242A32;
+    text-shadow: 0 0 2px #0296E5;
+}
+.card>a{
+    font-size: 14px;
+    color: wheat;
+    text-decoration: none;
+    /* text-align: left; */
+    margin-left: 58px;
+    margin-top: 10px;
+}
+#search{
+    padding: 5px 20px;
+    margin-left: 37px;
+    margin-top: 20px;
+    border: 1px solid #0296E5;
+    background-color: #242A32;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
